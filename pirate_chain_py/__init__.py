@@ -1,0 +1,1 @@
+from pirate_chain_py.pirate_rpc_wallet import PirateWallet
