@@ -8,8 +8,8 @@ setup(
     description='''Pirate Chain, the most anonymous cryptocurrency in existence now with python wrapped Remote Procedure Calls for easy integration with any python based program. https://pirate.black/''',
     author='Mr_Idjit',
     author_email='mr_idjit@protonmail.com',
-    url='',
-    download_url='',
+    url='https://github.com/Mr1djit/pirate_chain_py',
+    download_url='https://github.com/Mr1djit/pirate_chain_py/archive/refs/tags/v1.00.tar.gz',
     keywords=['Pirate Chain', 'pirate', 'chain', 'crypto', 'wallet', 'privacy', 'integration', 'finance', ' '],
     install_requires=[
         'requests'
