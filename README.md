@@ -3,6 +3,9 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+## Install using pip
+```pip install pirate-chain-py```
+
 ## Example
 
 Find your full node configuration file - 'PIRATE.conf'.
