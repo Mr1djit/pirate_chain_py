@@ -1,20 +1,20 @@
 from distutils.core import setup
 
+with open('README.rst') as readme:
+    long_description = readme.read()
+
 setup(
     name='pirate_chain_py',
     packages=['pirate_chain_py'],
-    version='1.00',
+    version='1.01',
     license='MIT',
     description='''Pirate Chain, the most anonymous cryptocurrency in existence now with python wrapped Remote Procedure Calls for easy integration with any python based program. https://pirate.black/''',
-    long_description=open('README.md').read(),
+    long_description=long_description,
     author='Mr_Idjit',
     author_email='mr_idjit@protonmail.com',
     url='https://github.com/Mr1djit/pirate_chain_py',
-    download_url='https://github.com/Mr1djit/pirate_chain_py/archive/refs/tags/v1.00.tar.gz',
+    download_url='https://github.com/Mr1djit/pirate_chain_py/archive/refs/tags/v1.01.tar.gz',
     keywords=['Pirate Chain', 'pirate', 'chain', 'crypto', 'wallet', 'privacy', 'integration', 'finance', ' '],
-    install_requires=[
-        'requests'
-    ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',

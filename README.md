@@ -22,7 +22,7 @@ your_new_address: str = result['result']
 
 print(your_new_address)
 ```
-
+___
 ## Learn more
 
 - Pirate Chain Website: [https://pirate.black](https://pirate.black/)
