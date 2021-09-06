@@ -3,9 +3,10 @@ from distutils.core import setup
 setup(
     name='pirate_chain_py',
     packages=['pirate_chain_py'],
-    version='1.0',
+    version='1.00',
     license='MIT',
     description='''Pirate Chain, the most anonymous cryptocurrency in existence now with python wrapped Remote Procedure Calls for easy integration with any python based program. https://pirate.black/''',
+    long_description=open('README.md').read(),
     author='Mr_Idjit',
     author_email='mr_idjit@protonmail.com',
     url='https://github.com/Mr1djit/pirate_chain_py',
